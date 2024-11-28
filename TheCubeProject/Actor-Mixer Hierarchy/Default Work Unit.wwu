@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Maps" ID="{53FF54C1-5A57-4E4E-AF6C-709319D0D980}" ShortID="108650044"/>
+				<Folder Name="Main" ID="{D13C28B2-ADA7-41F8-86D4-5C7C3AAC3990}" ShortID="945903881">
+					<ChildrenList>
+						<ActorMixer Name="Items" ID="{A415F83F-2A02-4420-8032-B3916657F14F}" ShortID="55">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>35</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Color" Type="int16" Value="5"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C0DED077-4C9F-4D69-BAA2-DD03C6F6307A}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="False"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Main Attenuation" ID="{CB118EF0-7984-49E5-A075-7431C2392256}" WorkUnitID="{23276E4C-2FE8-487E-8901-9951885E0682}"/>
+								</Reference>
+								<Reference Name="Conversion" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="SFX" ID="{AE8A4EDB-E552-4275-9909-2809490D427A}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+								</Reference>
+								<Reference Name="OutputBus" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Items" ID="{D14EF839-EFDF-409C-90F9-9A5A54CC9E68}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+								</Reference>
+							</ReferenceList>
+							<PositioningInfo>
+								<Panner Name="" ID="{C238DE05-CAAB-4F79-A631-7E9D5C4120B7}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="7.7715611723761E-16"/>
+										<Property Name="PanY" Type="Real64" Value="100"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+						</ActorMixer>
+						<ActorMixer Name="Main Character" ID="{6E8E049A-78F8-4D35-88DE-0908B0612696}" ShortID="123">
+							<PropertyList>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>35</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Color" Type="int16" Value="25"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{9826E989-E3DA-4446-AA01-16A5750D7C3E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="False"/>
+													<Property Name="Max" Type="Real64" Value="50"/>
+													<Property Name="Min" Type="Real64" Value="-50"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Priority" Type="int16">
+									<ValueList>
+										<Value>70</Value>
+									</ValueList>
+								</Property>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{443EAD92-F40D-4BAB-9D14-38FC11583591}">
+												<PropertyList>
+													<Property Name="Min" Type="Real64" Value="-4"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+								</Reference>
+								<Reference Name="OutputBus" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Main Character" ID="{07135C75-97AF-4EF9-8EDC-7B9585BE8B73}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+								</Reference>
+							</ReferenceList>
+							<PositioningInfo>
+								<Panner Name="" ID="{05817773-46D2-476F-851B-209FF1904194}"/>
+							</PositioningInfo>
+						</ActorMixer>
+						<ActorMixer Name="Monsters" ID="{52026D1E-EBEE-42B1-8480-0E3A2C57B20C}" ShortID="91747929">
+							<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Alexander Brandon
+© 2008 Alexander Brandon
+www.alexanderbrandon.net
+
+The Audio Content contained in this file is the property of Alexander Brandon.  Y
+our sole right with regard to this Audio Content is to listen to the Audio Content as part of this project.  
+This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>35</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Color" Type="int16" Value="9"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{4D777154-A34F-4203-A2A8-452A52D89B33}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="250"/>
+													<Property Name="Min" Type="Real64" Value="-250"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Priority" Type="int16">
+									<ValueList>
+										<Value>60</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B95E6478-1F9F-4089-AED5-C43B8DA9861C}">
+												<PropertyList>
+													<Property Name="Min" Type="Real64" Value="-3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Main Attenuation" ID="{CB118EF0-7984-49E5-A075-7431C2392256}" WorkUnitID="{23276E4C-2FE8-487E-8901-9951885E0682}"/>
+								</Reference>
+								<Reference Name="Conversion" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+								</Reference>
+								<Reference Name="OutputBus" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Monsters" ID="{81EEE640-C234-4F9A-8535-FF164709AD95}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+								</Reference>
+							</ReferenceList>
+							<PositioningInfo>
+								<Panner Name="" ID="{5BCC0E80-8C35-4023-8DBE-4F79751A06D1}">
+									<PropertyList>
+										<Property Name="PanY" Type="Real64" Value="90"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+						</ActorMixer>
+						<ActorMixer Name="Magic" ID="{DF6F6E36-7845-4686-93BE-FCA2E63C7988}" ShortID="784310261">
+							<PropertyList>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+								<Property Name="Color" Type="int16" Value="2"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Priority" Type="int16">
+									<ValueList>
+										<Value>80</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Main Attenuation" ID="{CB118EF0-7984-49E5-A075-7431C2392256}" WorkUnitID="{23276E4C-2FE8-487E-8901-9951885E0682}"/>
+								</Reference>
+								<Reference Name="Conversion" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="SFX" ID="{AE8A4EDB-E552-4275-9909-2809490D427A}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+								</Reference>
+								<Reference Name="OutputBus" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Magic" ID="{ACE33DD1-7E1E-4140-BD1C-FC1F438F0788}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
