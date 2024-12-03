@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="123">
+	<ValidationCacheItem File="C:\Users\johan\OneDrive\My Docs\Documents\GitHub\TheCUBEProject\TheCubeProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1732058132" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\johan\OneDrive\My Docs\Documents\GitHub\TheCUBEProject\TheCubeProject\Triggers\Music.wwu" DateLow="1732058132" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\johan\OneDrive\My Docs\Documents\GitHub\TheCUBEProject\TheCubeProject\Triggers\Default Work Unit.wwu" DateLow="1732058132" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\johan\OneDrive\My Docs\Documents\GitHub\TheCUBEProject\TheCubeProject\TheCubeProject.wproj" DateLow="1732758119" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\johan\OneDrive\My Docs\Documents\GitHub\TheCUBEProject\TheCubeProject\TheCubeProject.johan.wsettings" DateLow="1733189227" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\johan\OneDrive\My Docs\Documents\GitHub\TheCUBEProject\TheCubeProject\Switches\Music.wwu" DateLow="1732058132" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\johan\OneDrive\My Docs\Documents\GitHub\TheCUBEProject\TheCubeProject\Switches\Default Work Unit.wwu" DateLow="1732058132" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\johan\OneDrive\My Docs\Documents\GitHub\TheCUBEProject\TheCubeProject\States\Music.wwu" DateLow="1732058132" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\johan\OneDrive\My Docs\Documents\GitHub\TheCUBEProject\TheCubeProject\States\Default Work Unit.wwu" DateLow="1732058132" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\johan\OneDrive\My Docs\Documents\GitHub\TheCUBEProject\TheCubeProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1732058132" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\johan\OneDrive\My Docs\Documents\GitHub\TheCUBEProject\TheCubeProject\SoundBanks\Default Work Unit.wwu" DateLow="1732058132" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\johan\OneDrive\My Docs\Documents\GitHub\TheCUBEProject\TheCubeProject\Queries\Default Work Unit.wwu" DateLow="1732058132" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\johan\OneDrive\My Docs\Documents\GitHub\TheCUBEProject\TheCubeProject\Presets\Default Work Unit.wwu" DateLow="1732058132" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\johan\OneDrive\My Docs\Documents\GitHub\TheCUBEProject\TheCubeProject\Modulators\Default Work Unit.wwu" DateLow="1732058118" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\johan\OneDrive\My Docs\Documents\GitHub\TheCUBEProject\TheCubeProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1732058118" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\johan\OneDrive\My Docs\Documents\GitHub\TheCUBEProject\TheCubeProject\Metadata\Default Work Unit.wwu" DateLow="1732058118" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\johan\OneDrive\My Docs\Documents\GitHub\TheCUBEProject\TheCubeProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1732758301" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\johan\OneDrive\My Docs\Documents\GitHub\TheCUBEProject\TheCubeProject\Interactive Music Hierarchy\Music.wwu" DateLow="1732758325" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\johan\OneDrive\My Docs\Documents\GitHub\TheCUBEProject\TheCubeProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1732058118" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\johan\OneDrive\My Docs\Documents\GitHub\TheCUBEProject\TheCubeProject\Game Parameters\Music.wwu" DateLow="1732058118" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\johan\OneDrive\My Docs\Documents\GitHub\TheCUBEProject\TheCubeProject\Game Parameters\Default Work Unit.wwu" DateLow="1732058118" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\johan\OneDrive\My Docs\Documents\GitHub\TheCUBEProject\TheCubeProject\Events\Music.wwu" DateLow="1732058118" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\johan\OneDrive\My Docs\Documents\GitHub\TheCUBEProject\TheCubeProject\Events\Default Work Unit.wwu" DateLow="1732758119" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\johan\OneDrive\My Docs\Documents\GitHub\TheCUBEProject\TheCubeProject\Effects\Factory Effects.wwu" DateLow="1732058118" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\johan\OneDrive\My Docs\Documents\GitHub\TheCUBEProject\TheCubeProject\Effects\Default Work Unit.wwu" DateLow="1732058118" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\johan\OneDrive\My Docs\Documents\GitHub\TheCUBEProject\TheCubeProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1732058118" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\johan\OneDrive\My Docs\Documents\GitHub\TheCUBEProject\TheCubeProject\Conversion Settings\Default Work Unit.wwu" DateLow="1732058118" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\johan\OneDrive\My Docs\Documents\GitHub\TheCUBEProject\TheCubeProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1732058118" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\johan\OneDrive\My Docs\Documents\GitHub\TheCUBEProject\TheCubeProject\Audio Devices\Default Work Unit.wwu" DateLow="1732058118" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\johan\OneDrive\My Docs\Documents\GitHub\TheCUBEProject\TheCubeProject\Attenuations\My Cube.wwu" DateLow="1732058118" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\johan\OneDrive\My Docs\Documents\GitHub\TheCUBEProject\TheCubeProject\Attenuations\Default Work Unit.wwu" DateLow="1732058118" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\johan\OneDrive\My Docs\Documents\GitHub\TheCUBEProject\TheCubeProject\Actor-Mixer Hierarchy\Music.wwu" DateLow="1732758119" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\johan\OneDrive\My Docs\Documents\GitHub\TheCUBEProject\TheCubeProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1732758119" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\johan\Downloads\WWISE Projects\2024\TheCubeProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1732058132" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\johan\Downloads\WWISE Projects\2024\TheCubeProject\Triggers\Music.wwu" DateLow="1732058132" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\johan\Downloads\WWISE Projects\2024\TheCubeProject\Triggers\Default Work Unit.wwu" DateLow="1732058132" DateHigh="0"/>
