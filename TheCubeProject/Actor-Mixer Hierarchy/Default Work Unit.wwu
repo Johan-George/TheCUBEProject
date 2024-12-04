@@ -243,6 +243,732 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 									<ObjectRef Name="Magic" ID="{ACE33DD1-7E1E-4140-BD1C-FC1F438F0788}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Folder Name="Player Spells - Johan" ID="{80F5571E-8A01-4EF3-A00A-4937EBBE5452}" ShortID="76086115">
+									<ChildrenList>
+										<Sound Name="Gems_Drop" ID="{511DC5CB-BA7D-40F0-8752-3D8011663677}" ShortID="206082414">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{E7D04B7D-17CB-419B-969B-F49CAB49743F}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																	<Property Name="Min" Type="Real64" Value="-150"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{975849D3-D408-48DD-9DB1-7D31B40C8B61}">
+																<PropertyList>
+																	<Property Name="Min" Type="Real64" Value="-5"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gems_Drop" ID="{C29A9DE7-8742-406F-985C-C4AD2114D3EE}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Exports\Gems_Drop.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="563792587"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Gems_Drop" ID="{C29A9DE7-8742-406F-985C-C4AD2114D3EE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Folder Name="Blasts" ID="{0F58994A-8B28-415D-9283-A5C534016E31}" ShortID="324052229">
+											<ChildrenList>
+												<Sound Name="Ice Blast" ID="{CD2CF62D-2F9F-474D-93D0-C7F984678595}" ShortID="453024376">
+													<PropertyList>
+														<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{6564E89D-EC2B-4A74-BD88-11FC61D49A65}">
+																		<PropertyList>
+																			<Property Name="Max" Type="Real64" Value="150"/>
+																			<Property Name="Min" Type="Real64" Value="-150"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Priority" Type="int16">
+															<ValueList>
+																<Value>80</Value>
+															</ValueList>
+														</Property>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{257F8F64-05F1-43AB-B8AC-25AFE2108AD3}">
+																		<PropertyList>
+																			<Property Name="Max" Type="Real64" Value="3"/>
+																			<Property Name="Min" Type="Real64" Value="-3"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation" CompanyID="4095" PluginID="65535" PluginType="15">
+															<ObjectRef Name="Main Attenuation" ID="{CB118EF0-7984-49E5-A075-7431C2392256}" WorkUnitID="{23276E4C-2FE8-487E-8901-9951885E0682}"/>
+														</Reference>
+														<Reference Name="Conversion" CompanyID="4095" PluginID="65535" PluginType="15">
+															<ObjectRef Name="SFX" ID="{AE8A4EDB-E552-4275-9909-2809490D427A}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+														</Reference>
+														<Reference Name="OutputBus" CompanyID="4095" PluginID="65535" PluginType="15">
+															<ObjectRef Name="Magic" ID="{ACE33DD1-7E1E-4140-BD1C-FC1F438F0788}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Ice Blast" ID="{86E22D0B-B59D-47DD-936D-5E6BCF709356}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Exports\Ice Blast.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="35262102"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Ice Blast" ID="{86E22D0B-B59D-47DD-936D-5E6BCF709356}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Lightning Blast" ID="{C4742E40-633A-41C6-AB6D-0BB9E9D82D20}" ShortID="889089234">
+													<PropertyList>
+														<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+														<Property Name="InitialDelay" Type="Real64">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{C0B71B1F-8588-494B-8571-CBA2A104D330}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="False"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{2D469B0A-787A-482E-9357-80F957ECCA03}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="False"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{42041A31-E311-443F-9C11-99640361160B}">
+																		<PropertyList>
+																			<Property Name="Max" Type="Real64" Value="200"/>
+																			<Property Name="Min" Type="Real64" Value="-200"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Priority" Type="int16">
+															<ValueList>
+																<Value>80</Value>
+															</ValueList>
+														</Property>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{ABC78118-5DD9-4180-80A6-FEE2A58EED29}">
+																		<PropertyList>
+																			<Property Name="Max" Type="Real64" Value="3"/>
+																			<Property Name="Min" Type="Real64" Value="-3"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation" CompanyID="4095" PluginID="65535" PluginType="15">
+															<ObjectRef Name="Main Attenuation" ID="{CB118EF0-7984-49E5-A075-7431C2392256}" WorkUnitID="{23276E4C-2FE8-487E-8901-9951885E0682}"/>
+														</Reference>
+														<Reference Name="Conversion" CompanyID="4095" PluginID="65535" PluginType="15">
+															<ObjectRef Name="SFX" ID="{AE8A4EDB-E552-4275-9909-2809490D427A}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+														</Reference>
+														<Reference Name="OutputBus" CompanyID="4095" PluginID="65535" PluginType="15">
+															<ObjectRef Name="Magic" ID="{ACE33DD1-7E1E-4140-BD1C-FC1F438F0788}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Lightning Blast" ID="{7298C0AB-5F4C-457C-9B88-40B5F2530B32}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Exports\Lightning Blast.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="477809559"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Lightning Blast" ID="{7298C0AB-5F4C-457C-9B88-40B5F2530B32}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Poison Blast" ID="{D776799F-DCA6-4797-BDAB-AB08C1D97D3E}" ShortID="460589856">
+													<PropertyList>
+														<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>10</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{FC8DFBA5-107C-43C4-BCA6-5C0735F3F213}">
+																		<PropertyList>
+																			<Property Name="Max" Type="Real64" Value="10"/>
+																			<Property Name="Min" Type="Real64" Value="-10"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{DB8526B1-C137-480D-B69B-94F977BAF9EF}">
+																		<PropertyList>
+																			<Property Name="Max" Type="Real64" Value="100"/>
+																			<Property Name="Min" Type="Real64" Value="-100"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Priority" Type="int16">
+															<ValueList>
+																<Value>80</Value>
+															</ValueList>
+														</Property>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{14ACC238-3A49-46FE-AF03-57595B02BE3D}">
+																		<PropertyList>
+																			<Property Name="Max" Type="Real64" Value="2"/>
+																			<Property Name="Min" Type="Real64" Value="-2"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation" CompanyID="4095" PluginID="65535" PluginType="15">
+															<ObjectRef Name="Main Attenuation" ID="{CB118EF0-7984-49E5-A075-7431C2392256}" WorkUnitID="{23276E4C-2FE8-487E-8901-9951885E0682}"/>
+														</Reference>
+														<Reference Name="Conversion" CompanyID="4095" PluginID="65535" PluginType="15">
+															<ObjectRef Name="SFX" ID="{AE8A4EDB-E552-4275-9909-2809490D427A}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+														</Reference>
+														<Reference Name="OutputBus" CompanyID="4095" PluginID="65535" PluginType="15">
+															<ObjectRef Name="Magic" ID="{ACE33DD1-7E1E-4140-BD1C-FC1F438F0788}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Poison Blast" ID="{B3C4FF9E-545F-49BE-B1CE-50C158789077}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Exports\Poison Blast.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="637823480"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Poison Blast" ID="{B3C4FF9E-545F-49BE-B1CE-50C158789077}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FireGem_Blast" ID="{628990C7-EE30-41EA-B757-1AA8D39E2EF8}" ShortID="331156034">
+													<PropertyList>
+														<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+														<Property Name="Priority" Type="int16">
+															<ValueList>
+																<Value>80</Value>
+															</ValueList>
+														</Property>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation" CompanyID="4095" PluginID="65535" PluginType="15">
+															<ObjectRef Name="Main Attenuation" ID="{CB118EF0-7984-49E5-A075-7431C2392256}" WorkUnitID="{23276E4C-2FE8-487E-8901-9951885E0682}"/>
+														</Reference>
+														<Reference Name="Conversion" CompanyID="4095" PluginID="65535" PluginType="15">
+															<ObjectRef Name="SFX" ID="{AE8A4EDB-E552-4275-9909-2809490D427A}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+														</Reference>
+														<Reference Name="OutputBus" CompanyID="4095" PluginID="65535" PluginType="15">
+															<ObjectRef Name="Magic" ID="{ACE33DD1-7E1E-4140-BD1C-FC1F438F0788}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FireGem_Blast" ID="{CCAE1CB3-0405-4A7C-9A5A-BC783FAF202C}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>FireGem_Blast.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="863970145"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FireGem_Blast" ID="{CCAE1CB3-0405-4A7C-9A5A-BC783FAF202C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="Tails" ID="{90FDD6B9-364D-452A-9F7C-FF3382D8A6D4}" ShortID="229438230">
+											<ChildrenList>
+												<Sound Name="IceGem_Recharge" ID="{86720D4F-5713-489E-AA06-FC0672FA1193}" ShortID="356308310">
+													<PropertyList>
+														<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+														<Property Name="Highpass" Type="int16">
+															<ValueList>
+																<Value>20</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{AE1BE4D8-59F4-43D1-A64B-58995D03F42C}">
+																		<PropertyList>
+																			<Property Name="Max" Type="Real64" Value="10"/>
+																			<Property Name="Min" Type="Real64" Value="-20"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{77C1871F-2891-45A0-9D06-A00F3ACBD3B0}">
+																		<PropertyList>
+																			<Property Name="Max" Type="Real64" Value="300"/>
+																			<Property Name="Min" Type="Real64" Value="-300"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Priority" Type="int16">
+															<ValueList>
+																<Value>80</Value>
+															</ValueList>
+														</Property>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation" CompanyID="4095" PluginID="65535" PluginType="15">
+															<ObjectRef Name="Main Attenuation" ID="{CB118EF0-7984-49E5-A075-7431C2392256}" WorkUnitID="{23276E4C-2FE8-487E-8901-9951885E0682}"/>
+														</Reference>
+														<Reference Name="Conversion" CompanyID="4095" PluginID="65535" PluginType="15">
+															<ObjectRef Name="SFX" ID="{AE8A4EDB-E552-4275-9909-2809490D427A}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+														</Reference>
+														<Reference Name="OutputBus" CompanyID="4095" PluginID="65535" PluginType="15">
+															<ObjectRef Name="Magic" ID="{ACE33DD1-7E1E-4140-BD1C-FC1F438F0788}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="IceGem_Recharge" ID="{582352A5-6655-42A4-844C-8909D474C552}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Exports\IceGem_Recharge.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="164721640"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="IceGem_Recharge" ID="{582352A5-6655-42A4-844C-8909D474C552}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PoisonGem_Whoosh" ID="{26856D85-AB43-4BE6-BECD-42582C1FBF20}" ShortID="105080187">
+													<PropertyList>
+														<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{E38FF041-9C92-4082-AB22-595E0D92377F}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="False"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{F849E7AE-DF9D-40D1-835D-0E94F349FC01}">
+																		<PropertyList>
+																			<Property Name="Max" Type="Real64" Value="50"/>
+																			<Property Name="Min" Type="Real64" Value="-50"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Priority" Type="int16">
+															<ValueList>
+																<Value>80</Value>
+															</ValueList>
+														</Property>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{075C8920-1B5E-4F76-8A28-2C0F13D3A76F}">
+																		<PropertyList>
+																			<Property Name="Max" Type="Real64" Value="2"/>
+																			<Property Name="Min" Type="Real64" Value="-2"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation" CompanyID="4095" PluginID="65535" PluginType="15">
+															<ObjectRef Name="Main Attenuation" ID="{CB118EF0-7984-49E5-A075-7431C2392256}" WorkUnitID="{23276E4C-2FE8-487E-8901-9951885E0682}"/>
+														</Reference>
+														<Reference Name="Conversion" CompanyID="4095" PluginID="65535" PluginType="15">
+															<ObjectRef Name="SFX" ID="{AE8A4EDB-E552-4275-9909-2809490D427A}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+														</Reference>
+														<Reference Name="OutputBus" CompanyID="4095" PluginID="65535" PluginType="15">
+															<ObjectRef Name="Magic" ID="{ACE33DD1-7E1E-4140-BD1C-FC1F438F0788}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PoisonGem_Whoosh" ID="{3C66019B-9256-4EEA-8F31-F999E635B698}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Exports\PoisonGem_Whoosh.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="846920829"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PoisonGem_Whoosh" ID="{3C66019B-9256-4EEA-8F31-F999E635B698}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Staff_WHOOSH" ID="{C9F4792F-8488-44F2-96C2-3D39F46E5D2F}" ShortID="961456732">
+													<PropertyList>
+														<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{3705FC63-6211-4B0B-8CF4-541B464F0C8A}">
+																		<PropertyList>
+																			<Property Name="Max" Type="Real64" Value="100"/>
+																			<Property Name="Min" Type="Real64" Value="-100"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Priority" Type="int16">
+															<ValueList>
+																<Value>80</Value>
+															</ValueList>
+														</Property>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{7C4A01B8-3E92-4DA0-9551-BD7E2C89C9FB}">
+																		<PropertyList>
+																			<Property Name="Max" Type="Real64" Value="2"/>
+																			<Property Name="Min" Type="Real64" Value="-2"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation" CompanyID="4095" PluginID="65535" PluginType="15">
+															<ObjectRef Name="Main Attenuation" ID="{CB118EF0-7984-49E5-A075-7431C2392256}" WorkUnitID="{23276E4C-2FE8-487E-8901-9951885E0682}"/>
+														</Reference>
+														<Reference Name="Conversion" CompanyID="4095" PluginID="65535" PluginType="15">
+															<ObjectRef Name="SFX" ID="{AE8A4EDB-E552-4275-9909-2809490D427A}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+														</Reference>
+														<Reference Name="OutputBus" CompanyID="4095" PluginID="65535" PluginType="15">
+															<ObjectRef Name="Magic" ID="{ACE33DD1-7E1E-4140-BD1C-FC1F438F0788}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Staff_WHOOSH" ID="{CD45D0EE-E544-49F2-A169-1DC72B916DC1}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Exports\Staff_WHOOSH.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="721653575"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Staff_WHOOSH" ID="{CD45D0EE-E544-49F2-A169-1DC72B916DC1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="LightningGem_Tail" ID="{90C800C1-1DE7-4205-8719-0F37A91D27E3}" ShortID="425621139">
+													<PropertyList>
+														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+														<Property Name="InitialDelay" Type="Real64">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{D939623F-37E8-4DB5-8991-6C6BC0254A76}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="False"/>
+																			<Property Name="Min" Type="Real64" Value="-10"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>30</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>200</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{5A2F1360-2098-4223-80B8-7A73F3AFF601}">
+																		<PropertyList>
+																			<Property Name="Max" Type="Real64" Value="300"/>
+																			<Property Name="Min" Type="Real64" Value="-50"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-4</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{7E4FF1D4-A860-4066-86FB-4C7F127BFD5D}">
+																		<PropertyList>
+																			<Property Name="Max" Type="Real64" Value="4"/>
+																			<Property Name="Min" Type="Real64" Value="-6"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="LightningGem_Tail" ID="{29632443-5EB7-43E1-A9D1-9256018CE176}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>LightningGem_Tail.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="287918334"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="LightningGem_Tail" ID="{29632443-5EB7-43E1-A9D1-9256018CE176}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FireGem_Recharge" ID="{B0144CD8-D4BB-4015-BA23-BAE9BDD8A388}" ShortID="833368628">
+													<PropertyList>
+														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-10</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FireGem_Recharge" ID="{554A32B8-2677-45CA-8B71-EC25E6547473}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>FireGem_Recharge.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1054168139"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FireGem_Recharge" ID="{554A32B8-2677-45CA-8B71-EC25E6547473}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</Folder>
+										<Sound Name="FireGem_Hit" ID="{91E3024E-7644-4E9E-A06D-A5E6F4BE6B44}" ShortID="963086431">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FireGem_Hit" ID="{45514E8C-F694-4C76-B635-0882C4855255}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>FireGem_Hit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="483232196"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FireGem_Hit" ID="{45514E8C-F694-4C76-B635-0882C4855255}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FireGem_Flight" ID="{41EA8293-26F2-412B-909F-1AA9AA1F4B37}" ShortID="321376604">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FireGem_End" ID="{E4648A39-B849-4F1A-866E-EE9A290E7075}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>FireGem_End.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="500682152"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FireGem_End" ID="{E4648A39-B849-4F1A-866E-EE9A290E7075}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
 				</Folder>
