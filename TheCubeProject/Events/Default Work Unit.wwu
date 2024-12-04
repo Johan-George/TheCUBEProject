@@ -552,8 +552,8 @@
 												<Property Name="ActionType" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
-												<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
-													<ObjectRef Name="FireGem Blast" ID="{8287EDC0-EE70-420D-8AD2-3821B584D8A6}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+												<Reference Name="Target">
+													<ObjectRef Name="FireGem_Blast" ID="{628990C7-EE30-41EA-B757-1AA8D39E2EF8}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -563,8 +563,8 @@
 												<Property Name="Delay" Type="Real64" Value="0.4"/>
 											</PropertyList>
 											<ReferenceList>
-												<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
-													<ObjectRef Name="FireGem_Flight" ID="{A6351FF0-D488-4DA8-8131-56A07AAE0E97}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+												<Reference Name="Target">
+													<ObjectRef Name="FireGem_Flight" ID="{41EA8293-26F2-412B-909F-1AA9AA1F4B37}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -574,8 +574,8 @@
 												<Property Name="Delay" Type="Real64" Value="0.3"/>
 											</PropertyList>
 											<ReferenceList>
-												<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
-													<ObjectRef Name="Gem Drop" ID="{69BC4D28-419B-470B-A82B-40532859BBA3}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+												<Reference Name="Target">
+													<ObjectRef Name="Gems_Drop" ID="{511DC5CB-BA7D-40F0-8752-3D8011663677}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -585,8 +585,8 @@
 												<Property Name="Delay" Type="Real64" Value="0.4"/>
 											</PropertyList>
 											<ReferenceList>
-												<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
-													<ObjectRef Name="Gem_Recharge_Woosh" ID="{36CA3801-FEA5-45BF-A917-3404E70DBCBA}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+												<Reference Name="Target">
+													<ObjectRef Name="Staff_WHOOSH" ID="{C9F4792F-8488-44F2-96C2-3D39F46E5D2F}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -596,8 +596,8 @@
 												<Property Name="Delay" Type="Real64" Value="0.6"/>
 											</PropertyList>
 											<ReferenceList>
-												<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
-													<ObjectRef Name="Gem_Recharge_Magic" ID="{A81D8CDF-EEC0-45C9-B61E-785AEE730547}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+												<Reference Name="Target">
+													<ObjectRef Name="FireGem_Recharge" ID="{B0144CD8-D4BB-4015-BA23-BAE9BDD8A388}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -605,13 +605,23 @@
 								</Event>
 								<Event Name="Fire_IceGem_Player" ID="{DF884660-E441-4668-A578-E858343B93FB}">
 									<ChildrenList>
+										<Action Name="" ID="{1F0E5D63-FBB5-43A2-A099-BE08499D03A4}" ShortID="478064038">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Gems_Drop" ID="{511DC5CB-BA7D-40F0-8752-3D8011663677}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 										<Action Name="" ID="{2D313CF0-820C-4354-8951-5D8F767C9A81}" ShortID="681579879">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
-												<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
-													<ObjectRef Name="IceGem_Blast" ID="{46A8DD12-AC15-4FC9-92E1-9A4150EDA7E6}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+												<Reference Name="Target">
+													<ObjectRef Name="Ice Blast" ID="{CD2CF62D-2F9F-474D-93D0-C7F984678595}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -621,8 +631,8 @@
 												<Property Name="Delay" Type="Real64" Value="0.4"/>
 											</PropertyList>
 											<ReferenceList>
-												<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
-													<ObjectRef Name="Gem Drop" ID="{8D3413A4-1EF1-4DFC-AE71-244A32EB0BC1}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+												<Reference Name="Target">
+													<ObjectRef Name="Gems_Drop" ID="{511DC5CB-BA7D-40F0-8752-3D8011663677}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -632,8 +642,8 @@
 												<Property Name="Delay" Type="Real64" Value="0.5"/>
 											</PropertyList>
 											<ReferenceList>
-												<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
-													<ObjectRef Name="Gem_Recharge_Woosh" ID="{0F26D1B6-37F3-47EB-8C12-42BC11054B7F}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+												<Reference Name="Target">
+													<ObjectRef Name="Staff_WHOOSH" ID="{C9F4792F-8488-44F2-96C2-3D39F46E5D2F}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -643,8 +653,8 @@
 												<Property Name="Delay" Type="Real64" Value="0.7"/>
 											</PropertyList>
 											<ReferenceList>
-												<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
-													<ObjectRef Name="Gem_Recharge_Magic" ID="{C8529C00-EDC6-4B3F-A7B9-526415ACF81E}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+												<Reference Name="Target">
+													<ObjectRef Name="IceGem_Recharge" ID="{86720D4F-5713-489E-AA06-FC0672FA1193}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -652,23 +662,55 @@
 								</Event>
 								<Event Name="Fire_PoisonGem_Player" ID="{3DE022E6-67F2-4A8C-B0AE-FF37FACE2FE9}">
 									<ChildrenList>
+										<Action Name="" ID="{482D67BB-E34D-493D-BFA4-57A6706E0808}" ShortID="943515489">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Gems_Drop" ID="{511DC5CB-BA7D-40F0-8752-3D8011663677}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{F39CDB52-2F63-49EC-8483-6A91335DC95B}" ShortID="717424285">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="PoisonGem_Whoosh" ID="{26856D85-AB43-4BE6-BECD-42582C1FBF20}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 										<Action Name="" ID="{BD82E4EE-9962-4945-92B6-9F71AEFE0D5E}" ShortID="549142820">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
-												<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
-													<ObjectRef Name="PoisonGem Magic" ID="{DC62F990-B8CF-4A98-BB79-DD7C02C6D5EA}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+												<Reference Name="Target">
+													<ObjectRef Name="Poison Blast" ID="{D776799F-DCA6-4797-BDAB-AB08C1D97D3E}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
 										<Action Name="" ID="{0068DC73-F1BD-4A96-A8EC-DB2F4C60C510}" ShortID="1035370881">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="1"/>
+												<Property Name="Delay" Type="Real64" Value="0.4"/>
 											</PropertyList>
 											<ReferenceList>
-												<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
-													<ObjectRef Name="PoisonGem_Bubble" ID="{8376A30C-4ABF-4B04-AC06-C7EE0BB7F36A}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+												<Reference Name="Target">
+													<ObjectRef Name="Gems_Drop" ID="{511DC5CB-BA7D-40F0-8752-3D8011663677}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{A6295124-AC4E-491E-B588-481976C6DCB1}" ShortID="589143638">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+												<Property Name="Delay" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="PoisonGem_Whoosh" ID="{26856D85-AB43-4BE6-BECD-42582C1FBF20}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -681,8 +723,8 @@
 												<Property Name="ActionType" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
-												<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
-													<ObjectRef Name="LightningGem Magic" ID="{1510F866-7AD1-41B7-B1E1-9461304C0A50}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+												<Reference Name="Target">
+													<ObjectRef Name="Lightning Blast" ID="{C4742E40-633A-41C6-AB6D-0BB9E9D82D20}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -692,8 +734,8 @@
 												<Property Name="Delay" Type="Real64" Value="0.4"/>
 											</PropertyList>
 											<ReferenceList>
-												<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
-													<ObjectRef Name="Gem Drop" ID="{28FF234E-AEC7-4D9C-830E-2B6242C16401}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+												<Reference Name="Target">
+													<ObjectRef Name="Gems_Drop" ID="{511DC5CB-BA7D-40F0-8752-3D8011663677}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -703,19 +745,19 @@
 												<Property Name="Delay" Type="Real64" Value="0.5"/>
 											</PropertyList>
 											<ReferenceList>
-												<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
-													<ObjectRef Name="Gem_Recharge_Woosh" ID="{E7EAE1EF-8622-46DC-A1BD-7E56C4AA7E18}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+												<Reference Name="Target">
+													<ObjectRef Name="Staff_WHOOSH" ID="{C9F4792F-8488-44F2-96C2-3D39F46E5D2F}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
 										<Action Name="" ID="{DB2D4D7B-99FC-42FC-A6BB-ABD92C39EE8E}" ShortID="303197269">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="1"/>
-												<Property Name="Delay" Type="Real64" Value="0.7"/>
+												<Property Name="Delay" Type="Real64" Value="0.5"/>
 											</PropertyList>
 											<ReferenceList>
-												<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
-													<ObjectRef Name="Gem_Recharge_Magic" ID="{83A29D30-93A4-4BEA-86EB-ACF0E997824B}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+												<Reference Name="Target">
+													<ObjectRef Name="LightningGem_Tail" ID="{90C800C1-1DE7-4205-8719-0F37A91D27E3}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -837,8 +879,8 @@
 												<Property Name="ActionType" Type="int16" Value="2"/>
 											</PropertyList>
 											<ReferenceList>
-												<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
-													<ObjectRef Name="FireGem_Flight" ID="{A6351FF0-D488-4DA8-8131-56A07AAE0E97}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+												<Reference Name="Target">
+													<ObjectRef Name="FireGem_Flight" ID="{41EA8293-26F2-412B-909F-1AA9AA1F4B37}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

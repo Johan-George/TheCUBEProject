@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "TheCubeProject",
+   "GUID": "{5E03F73B-C9A2-47B5-AC03-9CEC14D69526}",
+   "Generator": "2024.1.0.8669"
+  },
+  "CacheRoot": "../.cache",
+  "Platforms": [
+   {
+    "Name": "Mac",
+    "GUID": "{9C6217D5-DD11-4795-87C1-6CE02853C541}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "../../../WWISE INSTALL PATH/Wwise2024.1.0.8669/Cube/cube/soundbanks/Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EC}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "../../../WWISE INSTALL PATH/Wwise2024.1.0.8669/Cube/cube/soundbanks/Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{60FFD516-5C23-44C0-BB15-74A1FB3B8CA5}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{01A264C2-E87F-CBDF-1977-775A01D04122}"
+ }
+}
