@@ -886,10 +886,14 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 													<ChildrenList>
 														<AudioFileSource Name="FireGem_Recharge" ID="{554A32B8-2677-45CA-8B71-EC25E6547473}">
 															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.27204877436161"/>
+																<Property Name="FadeInShape" Type="int16" Value="4"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.668069142103195"/>
 																<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 																<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
-																<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
-																<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.182513734698296"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.28276159574588"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>FireGem_Recharge.wav</AudioFile>
@@ -907,6 +911,45 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										<Sound Name="FireGem_Hit" ID="{91E3024E-7644-4E9E-A06D-A5E6F4BE6B44}" ShortID="963086431">
 											<PropertyList>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{1EFE8A01-2481-4621-9009-70829692E74F}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="10"/>
+																	<Property Name="Min" Type="Real64" Value="-5"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{18DA0F66-F229-4105-AFDC-B078C433FFA1}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																	<Property Name="Min" Type="Real64" Value="-350"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{2F00BEC8-AE92-48BB-945A-EDF20CC2ECFA}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="2"/>
+																	<Property Name="Min" Type="Real64" Value="-2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -921,6 +964,7 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 													<PropertyList>
 														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
 														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 													</PropertyList>

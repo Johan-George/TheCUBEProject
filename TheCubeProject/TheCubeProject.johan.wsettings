@@ -4,13 +4,18 @@
 		<UserProjectSettings Name="" ID="{169D14E5-141F-41F5-8585-DCAB6E468B41}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\johan\Downloads\REAPER Sound Design Projects - Temp\2024\TheCUBEProject\Exports\"/>
+				<Property Name="Event Action List\{01F48F0E-4D5B-444C-A044-795C96BD1D58}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{3DE022E6-67F2-4A8C-B0AE-FF37FACE2FE9}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4A9272CB-4C58-469C-BA1B-6A95E1475CEE}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{5BFBF994-1D43-45EF-BFDA-25D0D971F88E}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{83920277-EC7E-4512-AC67-526E171A5AD0}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B118C846-194F-45D0-96AC-1836892024CF}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B148845D-B917-4D6C-B559-B396112F3AAA}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C9AD2CA0-FE5E-4EDF-B7CE-B97B0D54529D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D57BEA68-2E9F-4461-9425-917795490C71}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{DF884660-E441-4668-A578-E858343B93FB}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{E2BFDC16-779C-4D15-8D4E-C940818E5DD3}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{EE3AB00B-A436-4365-8215-7185F8B4D03D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="EventView\FilterMode2" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
@@ -104,8 +109,8 @@
 				<Property Name="SoundBankPathUserOverride" Type="bool" Value="True"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
-						<Value Platform="Mac">..\..\WWISE INSTALL PATH\Wwise2024.1.0.8669\Cube\cube\soundbanks\Mac\</Value>
-						<Value Platform="Windows">..\..\WWISE INSTALL PATH\Wwise2024.1.0.8669\Cube\cube\soundbanks\Windows\</Value>
+						<Value Platform="Mac">..\..\..\..\..\..\Downloads\WWISE Projects\WWISE INSTALL PATH\Wwise2024.1.0.8669\Cube\cube\soundbanks\Mac\</Value>
+						<Value Platform="Windows">..\..\..\..\..\..\Downloads\WWISE Projects\WWISE INSTALL PATH\Wwise2024.1.0.8669\Cube\cube\soundbanks\Windows\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">

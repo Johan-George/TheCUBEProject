@@ -560,7 +560,7 @@
 										<Action Name="" ID="{57130AD7-86DC-4DDC-B6F6-5A1D1600E152}" ShortID="258055249">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="1"/>
-												<Property Name="Delay" Type="Real64" Value="0.4"/>
+												<Property Name="Delay" Type="Real64" Value="0.2"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
@@ -593,7 +593,7 @@
 										<Action Name="" ID="{74785CDB-6B3D-4724-8ACE-6E15DC85288F}" ShortID="860674881">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="1"/>
-												<Property Name="Delay" Type="Real64" Value="0.6"/>
+												<Property Name="Delay" Type="Real64" Value="0.3"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
@@ -837,8 +837,8 @@
 												<Property Name="ActionType" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
-												<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
-													<ObjectRef Name="FireGem Explode" ID="{5018B122-4A4A-4DA6-931A-93400D14A50F}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+												<Reference Name="Target">
+													<ObjectRef Name="FireGem_Hit" ID="{91E3024E-7644-4E9E-A06D-A5E6F4BE6B44}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -851,8 +851,8 @@
 												<Property Name="ActionType" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
-												<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
-													<ObjectRef Name="FireGem Explode" ID="{5018B122-4A4A-4DA6-931A-93400D14A50F}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+												<Reference Name="Target">
+													<ObjectRef Name="FireGem_Hit" ID="{91E3024E-7644-4E9E-A06D-A5E6F4BE6B44}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
