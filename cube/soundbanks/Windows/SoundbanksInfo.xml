@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="154">
+	<RootPaths>
+		<ProjectRoot>../../../TheCubeProject</ProjectRoot>
+		<SourceFilesRoot>../../../TheCubeProject/.cache</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{9C353A28-3E31-DA8D-4B1A-947F23E76A58}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="105864315" Name="Wwise Gain (Custom)" LibName="Wwise Gain" LibId="9109507"/>
+					<Plugin Id="113792054" Name="Wwise Gain (Custom)" LibName="Wwise Gain" LibId="9109507"/>
+					<Plugin Id="150579494" Name="Wwise Gain (Custom)" LibName="Wwise Gain" LibId="9109507"/>
+					<Plugin Id="180409414" Name="Wwise Gain (Custom)" LibName="Wwise Gain" LibId="9109507"/>
+					<Plugin Id="245559507" Name="Wwise Gain (Custom)" LibName="Wwise Gain" LibId="9109507"/>
+					<Plugin Id="280354944" Name="Wwise Meter (Custom)" LibName="Wwise Meter" LibId="8454147"/>
+					<Plugin Id="444880069" Name="Wwise Gain (Custom)" LibName="Wwise Gain" LibId="9109507"/>
+					<Plugin Id="725884767" Name="Wwise Gain (Custom)" LibName="Wwise Gain" LibId="9109507"/>
+					<Plugin Id="758131623" Name="Wwise Gain (Custom)" LibName="Wwise Gain" LibId="9109507"/>
+					<Plugin Id="786099187" Name="Wwise Gain (Custom)" LibName="Wwise Gain" LibId="9109507"/>
+					<Plugin Id="953188324" Name="Default (Custom)" LibName="Wwise Peak Limiter" LibId="7208963"/>
+				</Custom>
+				<ShareSets>
+					<Plugin Id="194525819" Name="env_corridor" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="783969252" Name="env_small_room" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="2098638826" Name="Underground_Parking1" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+					<Plugin Id="3796564934" Name="Hard_Knee_Minus_3dB_RMS" LibName="Wwise Compressor" LibId="7077891"/>
+					<Plugin Id="3877888880" Name="env_large_room" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="4102571502" Name="env_medium_room" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="204612474" Name="Wwise 201 Music">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="150579494"/>
+						</Custom>
+						<ShareSets>
+							<PluginRef Id="2098638826"/>
+							<PluginRef Id="3796564934"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="393239870" Name="SFX"/>
+				<Bus Id="526254837" Name="201 Stingers">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="280354944"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="579523862" Name="Explore">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="113792054"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="805203703" Name="Master Secondary Bus"/>
+				<Bus Id="1560169506" Name="Boss">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="786099187"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="1686739444" Name="Story">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="180409414"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="1880439950" Name="Magic"/>
+				<Bus Id="1973600711" Name="Environmental"/>
+				<Bus Id="2151963051" Name="Items"/>
+				<Bus Id="2554360235" Name="201 Main">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="758131623"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="2716678721" Name="Victory">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="444880069"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="2764240573" Name="Combat">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="245559507"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="2791675679" Name="Defeated">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="105864315"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="3170124113" Name="Voice"/>
+				<Bus Id="3381091279" Name="Main Character"/>
+				<Bus Id="3761286811" Name="Environments"/>
+				<Bus Id="3803692087" Name="Master Audio Bus">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="953188324"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="3858746980" Name="Monsters"/>
+				<Bus Id="3991942870" Name="Music">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="725884767"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="194525819" Name="env_corridor">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="194525819"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="783969252" Name="env_small_room">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="783969252"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="3877888880" Name="env_large_room">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3877888880"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="4102571502" Name="env_medium_room">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="4102571502"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="151362964" Name="PlayerHealth"/>
+				<GameParameter Id="414646191" Name="VoiceVolume"/>
+				<GameParameter Id="988953028" Name="SFXVolume"/>
+				<GameParameter Id="2346531308" Name="MusicVolume"/>
+				<GameParameter Id="3963624107" Name="EnemyAware"/>
+				<GameParameter Id="4122641472" Name="Stinger_Sidechain"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="444815956" Name="PlayerLife">
+					<States>
+						<State Id="655265632" Name="Alive"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="2791675679" Name="Defeated"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="481714212" Name="PlayerInWater">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="979470758" Name="Yes"/>
+						<State Id="1668749452" Name="No"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1771987172" Name="PlayerHasSuperGem">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="979470758" Name="Yes"/>
+						<State Id="1668749452" Name="No"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3826569560" Name="Music_State">
+					<States>
+						<State Id="89505537" Name="Gameplay"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1560169506" Name="Boss"/>
+						<State Id="1686739444" Name="Story"/>
+						<State Id="2716678721" Name="Victory"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="2224580244" Name="Health_Status">
+					<GameParameterRef Id="151362964"/>
+					<Switches>
+						<Switch Id="1736617117" Name="Badly_Injured"/>
+						<Switch Id="1898225071" Name="Nearly_Defeated"/>
+						<Switch Id="2874639328" Name="Healthy"/>
+						<Switch Id="3519121093" Name="Flesh_Wound"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2702523344" Name="Gameplay_Switch">
+					<GameParameterRef Id="3963624107"/>
+					<Switches>
+						<Switch Id="579523862" Name="Explore"/>
+						<Switch Id="2764240573" Name="Combat"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3031504797" Name="Foot">
+					<Switches>
+						<Switch Id="4109362" Name="Left"/>
+						<Switch Id="3893817417" Name="Right"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3865314626" Name="Material">
+					<Switches>
+						<Switch Id="803837735" Name="Sand"/>
+						<Switch Id="841620460" Name="Concrete"/>
+						<Switch Id="1216965916" Name="Stone"/>
+						<Switch Id="2058049674" Name="Wood"/>
+						<Switch Id="2185786256" Name="Gravel"/>
+						<Switch Id="2473969246" Name="Metal"/>
+						<Switch Id="2637588553" Name="Tile"/>
+						<Switch Id="2654748154" Name="Water"/>
+						<Switch Id="4248645337" Name="Grass"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="2981918260" Type="User" Language="SFX" Hash="{940932A6-F2B4-21B6-27E5-66763487B231}">
+			<ShortName>DCP_the_core</ShortName>
+			<Path>DCP_the_core.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{15FD71F6-58D8-D25D-6CE7-BF58241FECB2}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="31758244" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LightnigGem_Fire\LightnigGem_Fire_03.wav</ShortName>
+					<CachePath>9B/{9B8B2AD3-70BF-E9D8-A868-E4F62E43D0B7}.wem</CachePath>
+				</File>
+				<File Id="118292116" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Magic\FireGem Magic\FireGem_Impact\FireGem_Impact_02.wav</ShortName>
+					<CachePath>DF/{DFF4000C-29E0-597E-2F01-4FD81EB31522}.wem</CachePath>
+				</File>
+				<File Id="140432970" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Magic\FireGem Magic\FireGem_Impact\FireGem_Impact_01.wav</ShortName>
+					<CachePath>54/{54D5F389-4D01-BFAE-BEC7-B7A0E24E5630}.wem</CachePath>
+				</File>
+				<File Id="190709828" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Magic\PoisionGem Magic\Poison Head\Poison Head_02.wav</ShortName>
+					<CachePath>70/{702412A9-0C31-0A90-5F57-314D788A39B8}.wem</CachePath>
+				</File>
+				<File Id="203846986" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LightnigGem_Fire\LightnigGem_Fire_01.wav</ShortName>
+					<CachePath>F3/{F33007E9-F836-3E11-02C8-FF5B1BBFA40D}.wem</CachePath>
+				</File>
+				<File Id="213386428" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gem_Drop_03.wav</ShortName>
+					<CachePath>B6/{B6B425D8-51C8-03EF-35ED-1D2C3859E1C0}.wem</CachePath>
+				</File>
+				<File Id="219312780" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Magic\IceGem Magic\IceGem_Blast\IceGem_Blast_01.wav</ShortName>
+					<CachePath>7C/{7C880F67-D02F-DA6E-05DE-7D0E292D9061}.wem</CachePath>
+				</File>
+				<File Id="260113203" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Magic\PoisionGem Magic\Poison Hit\Poison Hit_01.wav</ShortName>
+					<CachePath>36/{3697B1C9-5A17-D733-4986-9106EDFD839C}.wem</CachePath>
+				</File>
+				<File Id="268482403" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Magic\FireGem Magic\FireGem_Blast\FireGem_Blast_03.wav</ShortName>
+					<CachePath>0B/{0B21F3B7-3E99-F01E-8645-152D8D58B04A}.wem</CachePath>
+				</File>
+				<File Id="408502454" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Magic\FireGem Magic\FireGem_Blast\FireGem_Blast_01.wav</ShortName>
+					<CachePath>F8/{F872400F-B3D8-5466-8478-19F7625D1E74}.wem</CachePath>
+				</File>
+				<File Id="426380712" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Magic\PoisionGem Magic\Poison Tail\Poison Tail_01.wav</ShortName>
+					<CachePath>1A/{1A013DC7-3526-9AF2-D722-118F678F3798}.wem</CachePath>
+				</File>
+				<File Id="431113004" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Magic\FireGem Magic\FireGem_Flight\FireGem_Flight_01.wav</ShortName>
+					<CachePath>E1/{E1FD452C-DFCB-7D48-2C6F-62A333E6EF42}.wem</CachePath>
+				</File>
+				<File Id="454091346" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gem_Drop_Tail_01.wav</ShortName>
+					<CachePath>FD/{FD05D7DB-9693-3053-896E-E970E5BEC044}.wem</CachePath>
+				</File>
+				<File Id="474350826" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gem\Gem_Player\Gem_Recharge_Woosh\Gem_Recharge_Woosh_01.wav</ShortName>
+					<CachePath>24/{2480CAA1-92FC-F5D4-7F5F-928559E52D03}.wem</CachePath>
+				</File>
+				<File Id="503988408" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Magic\IceGem Magic\IceGem_Blast\IceGem_Blast_02.wav</ShortName>
+					<CachePath>8B/{8B108D60-9A69-A8CF-AAED-A7329FFED96C}.wem</CachePath>
+				</File>
+				<File Id="528429227" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Magic\FireGem Magic\FireGem_Flight\FireGem_Flight_02.wav</ShortName>
+					<CachePath>26/{2692D3EE-4688-4C76-C8BD-EFE61B050CD8}.wem</CachePath>
+				</File>
+				<File Id="530866061" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Magic\IceGem Magic\IceGem_Blast\IceGem_Blast_03.wav</ShortName>
+					<CachePath>59/{596AAB89-9735-EB9F-0DA1-9108DCD397A7}.wem</CachePath>
+				</File>
+				<File Id="532704961" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gem_Drop_01.wav</ShortName>
+					<CachePath>1E/{1ED98CFC-8EA5-733F-218F-202CCF4E94C0}.wem</CachePath>
+				</File>
+				<File Id="539935512" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Magic\PoisionGem Magic\Poison Head\Poison Head_01.wav</ShortName>
+					<CachePath>D9/{D933E8FB-9121-7F23-056D-42BB58A6E872}.wem</CachePath>
+				</File>
+				<File Id="556212640" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gem_Drop_02.wav</ShortName>
+					<CachePath>70/{701802B7-700B-D4B7-43A9-A4780921DD8A}.wem</CachePath>
+				</File>
+				<File Id="601954961" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gem_Drop_Tail_02.wav</ShortName>
+					<CachePath>9C/{9CF502F5-6CAF-E36E-2AFE-4B4492413B23}.wem</CachePath>
+				</File>
+				<File Id="614772182" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gem\Gem_Player\Gem_Recharge_Woosh\Gem_Recharge_Woosh_02.wav</ShortName>
+					<CachePath>2C/{2CB27C38-093B-AFFE-2A56-16F5AB83D4D0}.wem</CachePath>
+				</File>
+				<File Id="738223577" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Magic\PoisionGem Magic\Poison Hit\Poison Hit_02.wav</ShortName>
+					<CachePath>B6/{B6746AC9-6E18-D91D-D03F-FDD4D9B5A752}.wem</CachePath>
+				</File>
+				<File Id="789251373" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Magic\FireGem Magic\FireGem_Blast\FireGem_Blast_02.wav</ShortName>
+					<CachePath>D6/{D62FF5B0-1ADF-FDD1-A46F-3DFC599D5FA0}.wem</CachePath>
+				</File>
+				<File Id="812515774" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Magic\PoisionGem Magic\Poison Tail\Poison Tail_02.wav</ShortName>
+					<CachePath>14/{1487479E-D0AF-0D86-E776-6685D0B06049}.wem</CachePath>
+				</File>
+				<File Id="816135148" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LightnigGem_Fire\LightnigGem_Fire_02.wav</ShortName>
+					<CachePath>BD/{BD72510E-FCC6-8B5C-F821-E08ED05D2FC5}.wem</CachePath>
+				</File>
+				<File Id="833672011" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gem_Drop_Tail_03.wav</ShortName>
+					<CachePath>6A/{6A4D1308-0A61-90E3-B0A6-25B7F30BDFA7}.wem</CachePath>
+				</File>
+				<File Id="862114117" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gem\Gem_Player\Gem_Recharge\Gem_Recharge_02.wav</ShortName>
+					<CachePath>A1/{A199A707-B502-99B4-562F-2380B00B271C}.wem</CachePath>
+				</File>
+				<File Id="1028486611" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gem\Gem_Player\Gem_Recharge\Gem_Recharge_01.wav</ShortName>
+					<CachePath>2A/{2AFE293C-5AB3-6A3A-2724-43015CD07502}.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="418750118" Name="Silence" LibName="Wwise Silence" LibId="6619138"/>
+					<Plugin Id="472369184" Name="Flanger (Custom)" LibName="Wwise Flanger" LibId="8192003"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="1922349781" Name="Defeated_Bauul"/>
+				<Event Id="375266055" Name="Defeated_Goblin"/>
+				<Event Id="3507659693" Name="Defeated_Hellpig"/>
+				<Event Id="1542346421" Name="Defeated_Knight"/>
+				<Event Id="427908151" Name="Defeated_Ogre"/>
+				<Event Id="3682968165" Name="Defeated_Player">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="444815956" Id="2791675679" Name="Defeated"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3952911171" Name="Defeated_Rat"/>
+				<Event Id="1278524204" Name="Defeated_Rhino"/>
+				<Event Id="908277812" Name="Defeated_Slith"/>
+				<Event Id="4214542295" Name="End_Fireball_Monster"/>
+				<Event Id="3808688735" Name="End_FireGem_Monster"/>
+				<Event Id="9714164" Name="End_FireGem_Player">
+					<MediaRefs>
+						<MediaRef Id="118292116"/>
+						<MediaRef Id="140432970"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2007968988" Name="End_Iceball_Monster"/>
+				<Event Id="360217301" Name="End_Slimeball_Monster"/>
+				<Event Id="784615425" Name="Fire_Bite_Monster"/>
+				<Event Id="157654016" Name="Fire_Fireball_Monster"/>
+				<Event Id="2460807274" Name="Fire_FireGem_Monster"/>
+				<Event Id="3954861711" Name="Fire_FireGem_Player">
+					<MediaRefs>
+						<MediaRef Id="213386428"/>
+						<MediaRef Id="268482403"/>
+						<MediaRef Id="408502454"/>
+						<MediaRef Id="431113004"/>
+						<MediaRef Id="454091346"/>
+						<MediaRef Id="474350826"/>
+						<MediaRef Id="528429227"/>
+						<MediaRef Id="532704961"/>
+						<MediaRef Id="556212640"/>
+						<MediaRef Id="601954961"/>
+						<MediaRef Id="614772182"/>
+						<MediaRef Id="789251373"/>
+						<MediaRef Id="833672011"/>
+						<MediaRef Id="862114117"/>
+						<MediaRef Id="1028486611"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="418750118"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="840179825" Name="Fire_Iceball_Monster"/>
+				<Event Id="2117476293" Name="Fire_IceGem_Monster"/>
+				<Event Id="2390793602" Name="Fire_IceGem_Player">
+					<MediaRefs>
+						<MediaRef Id="213386428"/>
+						<MediaRef Id="219312780"/>
+						<MediaRef Id="454091346"/>
+						<MediaRef Id="474350826"/>
+						<MediaRef Id="503988408"/>
+						<MediaRef Id="530866061"/>
+						<MediaRef Id="532704961"/>
+						<MediaRef Id="556212640"/>
+						<MediaRef Id="601954961"/>
+						<MediaRef Id="614772182"/>
+						<MediaRef Id="833672011"/>
+						<MediaRef Id="862114117"/>
+						<MediaRef Id="1028486611"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="418750118"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="2921530952" Name="Fire_LightningGem_Monster"/>
+				<Event Id="1098487589" Name="Fire_LightningGem_Player">
+					<MediaRefs>
+						<MediaRef Id="31758244"/>
+						<MediaRef Id="203846986"/>
+						<MediaRef Id="213386428"/>
+						<MediaRef Id="454091346"/>
+						<MediaRef Id="474350826"/>
+						<MediaRef Id="532704961"/>
+						<MediaRef Id="556212640"/>
+						<MediaRef Id="601954961"/>
+						<MediaRef Id="614772182"/>
+						<MediaRef Id="816135148"/>
+						<MediaRef Id="833672011"/>
+						<MediaRef Id="862114117"/>
+						<MediaRef Id="1028486611"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="418750118"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="4290568846" Name="Fire_PoisonGem_Monster"/>
+				<Event Id="1620107411" Name="Fire_PoisonGem_Player">
+					<MediaRefs>
+						<MediaRef Id="190709828"/>
+						<MediaRef Id="260113203"/>
+						<MediaRef Id="426380712"/>
+						<MediaRef Id="539935512"/>
+						<MediaRef Id="738223577"/>
+						<MediaRef Id="812515774"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="472369184"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="199291532" Name="Fire_Slimeball_Monster"/>
+				<Event Id="2484024762" Name="Fire_Staff_Player"/>
+				<Event Id="2677919691" Name="Foot_Bauul"/>
+				<Event Id="2057306229" Name="Foot_Goblin"/>
+				<Event Id="4226354843" Name="Foot_HellPig"/>
+				<Event Id="2052767559" Name="Foot_Knight"/>
+				<Event Id="1532553273" Name="Foot_Ogre"/>
+				<Event Id="1894362767" Name="Foot_Player"/>
+				<Event Id="2798325225" Name="Foot_Rat"/>
+				<Event Id="3826003282" Name="Foot_Rhino"/>
+				<Event Id="3877293442" Name="Foot_Slith"/>
+				<Event Id="856071815" Name="Grunt_Bauul"/>
+				<Event Id="4013911457" Name="Grunt_Goblin"/>
+				<Event Id="4053570031" Name="Grunt_HellPig"/>
+				<Event Id="1636303851" Name="Grunt_Knight"/>
+				<Event Id="2202981293" Name="Grunt_Ogre"/>
+				<Event Id="3838741285" Name="Grunt_Rat"/>
+				<Event Id="436652326" Name="Grunt_Rhino"/>
+				<Event Id="401958326" Name="Grunt_Slith"/>
+				<Event Id="1110865203" Name="Hit_Fireball_Monster"/>
+				<Event Id="2323254379" Name="Hit_FireGem_Monster"/>
+				<Event Id="2706330144" Name="Hit_FireGem_Player"/>
+				<Event Id="3957683912" Name="Hit_Iceball_Monster"/>
+				<Event Id="3024368545" Name="Hit_Slimeball_Monster"/>
+				<Event Id="2677419351" Name="ItemHealth100">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="3371734183" Name="Health_Cue"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="227445756" Name="ItemHealth200">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="3371734183" Name="Health_Cue"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="2521139513" Name="ItemMagic"/>
+				<Event Id="1125681085" Name="ItemSpawn"/>
+				<Event Id="3825277969" Name="ItemWizardHat100"/>
+				<Event Id="3875610858" Name="ItemWizardHat150"/>
+				<Event Id="3833651337" Name="Jump"/>
+				<Event Id="4149105284" Name="JumpPad"/>
+				<Event Id="674522502" Name="Land"/>
+				<Event Id="1758594367" Name="Map_Loaded"/>
+				<Event Id="219497941" Name="NoMagic"/>
+				<Event Id="1996139369" Name="Pain"/>
+				<Event Id="930941543" Name="Pain_Bauul"/>
+				<Event Id="32029953" Name="Pain_Goblin"/>
+				<Event Id="4052749775" Name="Pain_HellPig"/>
+				<Event Id="1207059019" Name="Pain_Knight"/>
+				<Event Id="2465710861" Name="Pain_Ogre"/>
+				<Event Id="1698673413" Name="Pain_Rat"/>
+				<Event Id="87064326" Name="Pain_Rhino"/>
+				<Event Id="52370326" Name="Pain_Slith"/>
+				<Event Id="1052365209" Name="PupMagic"/>
+				<Event Id="3732061108" Name="PupOut">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="1771987172" Id="1668749452" Name="No"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="157639802" Name="Rumble"/>
+				<Event Id="779629997" Name="Spawn_Monster"/>
+				<Event Id="1379053034" Name="Spawn_Player">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="444815956" Id="655265632" Name="Alive"/>
+						<ActionSetStateEntry GroupId="1771987172" Id="1668749452" Name="No"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="160686570" Name="SplashIn_Monster"/>
+				<Event Id="3954482959" Name="SplashIn_Player">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="481714212" Id="979470758" Name="Yes"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3999919399" Name="SplashOut_Monster"/>
+				<Event Id="3877942876" Name="SplashOut_Player">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="481714212" Id="1668749452" Name="No"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3137127082" Name="SuperGemPup">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="1771987172" Id="979470758" Name="Yes"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2437085230" Name="SwitchMagic"/>
+				<Event Id="530129416" Name="Teleport">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="2077047193" Name="Cymbal_Swell"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="3373753397" Name="Teleporter"/>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="444815956" Name="PlayerLife">
+					<States>
+						<State Id="655265632" Name="Alive"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="2791675679" Name="Defeated"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="481714212" Name="PlayerInWater">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="979470758" Name="Yes"/>
+						<State Id="1668749452" Name="No"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1771987172" Name="PlayerHasSuperGem">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="979470758" Name="Yes"/>
+						<State Id="1668749452" Name="No"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<Triggers>
+				<Trigger Id="2077047193" Name="Cymbal_Swell"/>
+				<Trigger Id="3371734183" Name="Health_Cue"/>
+			</Triggers>
+		</SoundBank>
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{EDD1DFDA-55BA-D200-5FF4-1C7BCA977C20}">
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{24EA81BC-8976-F59E-F071-53513601E53E}</FileHash>
+</SoundBanksInfo>

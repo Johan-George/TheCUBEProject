@@ -1,0 +1,121 @@
+Event	ID	Name			Wwise Object Path	Notes
+	9714164	End_FireGem_Player			\Default Work Unit\Main\Magic\End_FireGem_Player	
+	32029953	Pain_Goblin			\Default Work Unit\Main\Pain\Pain_Goblin	
+	52370326	Pain_Slith			\Default Work Unit\Main\Pain\Pain_Slith	
+	87064326	Pain_Rhino			\Default Work Unit\Main\Pain\Pain_Rhino	
+	157639802	Rumble			\Default Work Unit\Main\Misc\Rumble	
+	157654016	Fire_Fireball_Monster			\Default Work Unit\Main\Magic\Fire_Fireball_Monster	
+	160686570	SplashIn_Monster			\Default Work Unit\Main\Misc\SplashIn_Monster	
+	199291532	Fire_Slimeball_Monster			\Default Work Unit\Main\Magic\Fire_Slimeball_Monster	
+	219497941	NoMagic			\Default Work Unit\Main\Misc\NoMagic	
+	227445756	ItemHealth200			\Default Work Unit\Main\Misc\ItemHealth200	
+	360217301	End_Slimeball_Monster			\Default Work Unit\Main\Magic\End_Slimeball_Monster	
+	375266055	Defeated_Goblin			\Default Work Unit\Main\Defeated\Defeated_Goblin	
+	401958326	Grunt_Slith			\Default Work Unit\Main\Grunt\Grunt_Slith	Posted when monster sees player and wakes up from sleeping state
+	427908151	Defeated_Ogre			\Default Work Unit\Main\Defeated\Defeated_Ogre	
+	436652326	Grunt_Rhino			\Default Work Unit\Main\Grunt\Grunt_Rhino	Posted when monster sees player and wakes up from sleeping state
+	530129416	Teleport			\Default Work Unit\Main\Misc\Teleport	
+	674522502	Land			\Default Work Unit\Main\Misc\Land	
+	779629997	Spawn_Monster			\Default Work Unit\Main\Misc\Spawn_Monster	
+	784615425	Fire_Bite_Monster			\Default Work Unit\Main\Magic\Fire_Bite_Monster	
+	840179825	Fire_Iceball_Monster			\Default Work Unit\Main\Magic\Fire_Iceball_Monster	
+	856071815	Grunt_Bauul			\Default Work Unit\Main\Grunt\Grunt_Bauul	Posted when monster sees player and wakes up from sleeping state
+	908277812	Defeated_Slith			\Default Work Unit\Main\Defeated\Defeated_Slith	
+	930941543	Pain_Bauul			\Default Work Unit\Main\Pain\Pain_Bauul	
+	1052365209	PupMagic			\Default Work Unit\Main\Misc\PupMagic	
+	1098487589	Fire_LightningGem_Player			\Default Work Unit\Main\Magic\Fire_LightningGem_Player	
+	1110865203	Hit_Fireball_Monster			\Default Work Unit\Main\Magic\Hit_Fireball_Monster	
+	1125681085	ItemSpawn			\Default Work Unit\Main\Misc\ItemSpawn	
+	1207059019	Pain_Knight			\Default Work Unit\Main\Pain\Pain_Knight	
+	1278524204	Defeated_Rhino			\Default Work Unit\Main\Defeated\Defeated_Rhino	
+	1379053034	Spawn_Player			\Default Work Unit\Main\Misc\Spawn_Player	
+	1532553273	Foot_Ogre			\Default Work Unit\Main\Foot\Foot_Ogre	
+	1542346421	Defeated_Knight			\Default Work Unit\Main\Defeated\Defeated_Knight	
+	1620107411	Fire_PoisonGem_Player			\Default Work Unit\Main\Magic\Fire_PoisonGem_Player	
+	1636303851	Grunt_Knight			\Default Work Unit\Main\Grunt\Grunt_Knight	Posted when monster sees player and wakes up from sleeping state
+	1698673413	Pain_Rat			\Default Work Unit\Main\Pain\Pain_Rat	
+	1758594367	Map_Loaded			\Default Work Unit\Main\Misc\Map_Loaded	
+	1894362767	Foot_Player			\Default Work Unit\Main\Foot\Foot_Player	
+	1922349781	Defeated_Bauul			\Default Work Unit\Main\Defeated\Defeated_Bauul	
+	1996139369	Pain			\Default Work Unit\Main\Pain\Pain	
+	2007968988	End_Iceball_Monster			\Default Work Unit\Main\Magic\End_Iceball_Monster	
+	2052767559	Foot_Knight			\Default Work Unit\Main\Foot\Foot_Knight	
+	2057306229	Foot_Goblin			\Default Work Unit\Main\Foot\Foot_Goblin	
+	2117476293	Fire_IceGem_Monster			\Default Work Unit\Main\Magic\Fire_IceGem_Monster	
+	2202981293	Grunt_Ogre			\Default Work Unit\Main\Grunt\Grunt_Ogre	Posted when monster sees player and wakes up from sleeping state
+	2323254379	Hit_FireGem_Monster			\Default Work Unit\Main\Magic\Hit_FireGem_Monster	
+	2390793602	Fire_IceGem_Player			\Default Work Unit\Main\Magic\Fire_IceGem_Player	
+	2437085230	SwitchMagic			\Default Work Unit\Main\Misc\SwitchMagic	
+	2460807274	Fire_FireGem_Monster			\Default Work Unit\Main\Magic\Fire_FireGem_Monster	
+	2465710861	Pain_Ogre			\Default Work Unit\Main\Pain\Pain_Ogre	
+	2484024762	Fire_Staff_Player			\Default Work Unit\Main\Magic\Fire_Staff_Player	
+	2521139513	ItemMagic			\Default Work Unit\Main\Misc\ItemMagic	
+	2677419351	ItemHealth100			\Default Work Unit\Main\Misc\ItemHealth100	
+	2677919691	Foot_Bauul			\Default Work Unit\Main\Foot\Foot_Bauul	
+	2706330144	Hit_FireGem_Player			\Default Work Unit\Main\Magic\Hit_FireGem_Player	
+	2798325225	Foot_Rat			\Default Work Unit\Main\Foot\Foot_Rat	
+	2921530952	Fire_LightningGem_Monster			\Default Work Unit\Main\Magic\Fire_LightningGem_Monster	
+	3024368545	Hit_Slimeball_Monster			\Default Work Unit\Main\Magic\Hit_Slimeball_Monster	
+	3137127082	SuperGemPup			\Default Work Unit\Main\Misc\SuperGemPup	
+	3373753397	Teleporter			\Default Work Unit\Main\Misc\Teleporter	
+	3507659693	Defeated_Hellpig			\Default Work Unit\Main\Defeated\Defeated_Hellpig	
+	3682968165	Defeated_Player			\Default Work Unit\Main\Defeated\Defeated_Player	
+	3732061108	PupOut			\Default Work Unit\Main\Misc\PupOut	
+	3808688735	End_FireGem_Monster			\Default Work Unit\Main\Magic\End_FireGem_Monster	
+	3825277969	ItemWizardHat100			\Default Work Unit\Main\Misc\ItemWizardHat100	
+	3826003282	Foot_Rhino			\Default Work Unit\Main\Foot\Foot_Rhino	
+	3833651337	Jump			\Default Work Unit\Main\Misc\Jump	
+	3838741285	Grunt_Rat			\Default Work Unit\Main\Grunt\Grunt_Rat	Posted when monster sees player and wakes up from sleeping state
+	3875610858	ItemWizardHat150			\Default Work Unit\Main\Misc\ItemWizardHat150	
+	3877293442	Foot_Slith			\Default Work Unit\Main\Foot\Foot_Slith	
+	3877942876	SplashOut_Player			\Default Work Unit\Main\Misc\SplashOut_Player	
+	3952911171	Defeated_Rat			\Default Work Unit\Main\Defeated\Defeated_Rat	
+	3954482959	SplashIn_Player			\Default Work Unit\Main\Misc\SplashIn_Player	
+	3954861711	Fire_FireGem_Player			\Default Work Unit\Main\Magic\Fire_FireGem_Player	
+	3957683912	Hit_Iceball_Monster			\Default Work Unit\Main\Magic\Hit_Iceball_Monster	
+	3999919399	SplashOut_Monster			\Default Work Unit\Main\Misc\SplashOut_Monster	
+	4013911457	Grunt_Goblin			\Default Work Unit\Main\Grunt\Grunt_Goblin	Posted when monster sees player and wakes up from sleeping state
+	4052749775	Pain_HellPig			\Default Work Unit\Main\Pain\Pain_HellPig	
+	4053570031	Grunt_HellPig			\Default Work Unit\Main\Grunt\Grunt_HellPig	Posted when monster sees player and wakes up from sleeping state
+	4149105284	JumpPad			\Default Work Unit\Main\Misc\JumpPad	
+	4214542295	End_Fireball_Monster			\Default Work Unit\Main\Magic\End_Fireball_Monster	
+	4226354843	Foot_HellPig			\Default Work Unit\Main\Foot\Foot_HellPig	
+	4290568846	Fire_PoisonGem_Monster			\Default Work Unit\Main\Magic\Fire_PoisonGem_Monster	
+
+Effect plug-ins	ID	Name	Type				Notes
+	472369184	Flanger (Custom)	Wwise Flanger			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	418750118	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Anni_Assignment_Cube\Gem\Gem_Player\Gem_Drop\New Silence\Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	31758244	LightnigGem_Fire_03	F:\Coding\Github\Repos\Johan George\TheCUBEProject\TheCubeProject\.cache\9B\{9B8B2AD3-70BF-E9D8-A868-E4F62E43D0B7}.wem		\Actor-Mixer Hierarchy\Anni_Assignment_Cube\Magic\LightnigGem_Fire\LightnigGem_Fire\LightnigGem_Fire_03		133058
+	118292116	FireGem_Impact_02	F:\Coding\Github\Repos\Johan George\TheCUBEProject\TheCubeProject\.cache\DF\{DFF4000C-29E0-597E-2F01-4FD81EB31522}.wem		\Actor-Mixer Hierarchy\Anni_Assignment_Cube\Magic\FireGem Magic\FireGem_Impact\FireGem_Impact_02		46192
+	140432970	FireGem_Impact_01	F:\Coding\Github\Repos\Johan George\TheCUBEProject\TheCubeProject\.cache\54\{54D5F389-4D01-BFAE-BEC7-B7A0E24E5630}.wem		\Actor-Mixer Hierarchy\Anni_Assignment_Cube\Magic\FireGem Magic\FireGem_Impact\FireGem_Impact_01		46192
+	190709828	Poison Head_02	F:\Coding\Github\Repos\Johan George\TheCUBEProject\TheCubeProject\.cache\70\{702412A9-0C31-0A90-5F57-314D788A39B8}.wem		\Actor-Mixer Hierarchy\Anni_Assignment_Cube\Magic\PoisonGem Magic\Poison Head\Poison Head_02		61552
+	203846986	LightnigGem_Fire_01	F:\Coding\Github\Repos\Johan George\TheCUBEProject\TheCubeProject\.cache\F3\{F33007E9-F836-3E11-02C8-FF5B1BBFA40D}.wem		\Actor-Mixer Hierarchy\Anni_Assignment_Cube\Magic\LightnigGem_Fire\LightnigGem_Fire\LightnigGem_Fire_01		137752
+	213386428	Gem_Drop_03	F:\Coding\Github\Repos\Johan George\TheCUBEProject\TheCubeProject\.cache\B6\{B6B425D8-51C8-03EF-35ED-1D2C3859E1C0}.wem		\Actor-Mixer Hierarchy\Anni_Assignment_Cube\Gem\Gem_Player\Gem_Drop\Gem_Drop_Head\Gem_Drop_03		39822
+	219312780	IceGem_Blast_01	F:\Coding\Github\Repos\Johan George\TheCUBEProject\TheCubeProject\.cache\7C\{7C880F67-D02F-DA6E-05DE-7D0E292D9061}.wem		\Actor-Mixer Hierarchy\Anni_Assignment_Cube\Magic\IceGem Magic\IceGem_Blast\IceGem_Blast_01		114436
+	260113203	Poison Hit_01	F:\Coding\Github\Repos\Johan George\TheCUBEProject\TheCubeProject\.cache\36\{3697B1C9-5A17-D733-4986-9106EDFD839C}.wem		\Actor-Mixer Hierarchy\Anni_Assignment_Cube\Magic\PoisonGem Magic\Poison Hit\Poison Hit_01		7812
+	268482403	FireGem_Blast_03	F:\Coding\Github\Repos\Johan George\TheCUBEProject\TheCubeProject\.cache\0B\{0B21F3B7-3E99-F01E-8645-152D8D58B04A}.wem		\Actor-Mixer Hierarchy\Anni_Assignment_Cube\Magic\FireGem Magic\FireGem_Blast\FireGem_Blast_03		69696
+	408502454	FireGem_Blast_01	F:\Coding\Github\Repos\Johan George\TheCUBEProject\TheCubeProject\.cache\F8\{F872400F-B3D8-5466-8478-19F7625D1E74}.wem		\Actor-Mixer Hierarchy\Anni_Assignment_Cube\Magic\FireGem Magic\FireGem_Blast\FireGem_Blast_01		69696
+	426380712	Poison Tail_01	F:\Coding\Github\Repos\Johan George\TheCUBEProject\TheCubeProject\.cache\1A\{1A013DC7-3526-9AF2-D722-118F678F3798}.wem		\Actor-Mixer Hierarchy\Anni_Assignment_Cube\Magic\PoisonGem Magic\Poison Tail\Poison Tail_01		61552
+	431113004	FireGem_Flight_01	F:\Coding\Github\Repos\Johan George\TheCUBEProject\TheCubeProject\.cache\E1\{E1FD452C-DFCB-7D48-2C6F-62A333E6EF42}.wem		\Actor-Mixer Hierarchy\Anni_Assignment_Cube\Magic\FireGem Magic\FireGem_Flight\FireGem_Flight_01		115376
+	454091346	Gem_Drop_Tail_01	F:\Coding\Github\Repos\Johan George\TheCUBEProject\TheCubeProject\.cache\FD\{FD05D7DB-9693-3053-896E-E970E5BEC044}.wem		\Actor-Mixer Hierarchy\Anni_Assignment_Cube\Gem\Gem_Player\Gem_Drop\Gem_Drop_Tail\Gem_Drop_Tail_01		92272
+	474350826	Gem_Recharge_Woosh_01	F:\Coding\Github\Repos\Johan George\TheCUBEProject\TheCubeProject\.cache\24\{2480CAA1-92FC-F5D4-7F5F-928559E52D03}.wem		\Actor-Mixer Hierarchy\Anni_Assignment_Cube\Gem\Gem_Player\Gem_Recharge_Woosh\Gem_Recharge_Woosh_01		94244
+	503988408	IceGem_Blast_02	F:\Coding\Github\Repos\Johan George\TheCUBEProject\TheCubeProject\.cache\8B\{8B108D60-9A69-A8CF-AAED-A7329FFED96C}.wem		\Actor-Mixer Hierarchy\Anni_Assignment_Cube\Magic\IceGem Magic\IceGem_Blast\IceGem_Blast_02		114436
+	528429227	FireGem_Flight_02	F:\Coding\Github\Repos\Johan George\TheCUBEProject\TheCubeProject\.cache\26\{2692D3EE-4688-4C76-C8BD-EFE61B050CD8}.wem		\Actor-Mixer Hierarchy\Anni_Assignment_Cube\Magic\FireGem Magic\FireGem_Flight\FireGem_Flight_02		115376
+	530866061	IceGem_Blast_03	F:\Coding\Github\Repos\Johan George\TheCUBEProject\TheCubeProject\.cache\59\{596AAB89-9735-EB9F-0DA1-9108DCD397A7}.wem		\Actor-Mixer Hierarchy\Anni_Assignment_Cube\Magic\IceGem Magic\IceGem_Blast\IceGem_Blast_03		114436
+	532704961	Gem_Drop_01	F:\Coding\Github\Repos\Johan George\TheCUBEProject\TheCubeProject\.cache\1E\{1ED98CFC-8EA5-733F-218F-202CCF4E94C0}.wem		\Actor-Mixer Hierarchy\Anni_Assignment_Cube\Gem\Gem_Player\Gem_Drop\Gem_Drop_Head\Gem_Drop_01		38360
+	539935512	Poison Head_01	F:\Coding\Github\Repos\Johan George\TheCUBEProject\TheCubeProject\.cache\D9\{D933E8FB-9121-7F23-056D-42BB58A6E872}.wem		\Actor-Mixer Hierarchy\Anni_Assignment_Cube\Magic\PoisonGem Magic\Poison Head\Poison Head_01		61552
+	556212640	Gem_Drop_02	F:\Coding\Github\Repos\Johan George\TheCUBEProject\TheCubeProject\.cache\70\{701802B7-700B-D4B7-43A9-A4780921DD8A}.wem		\Actor-Mixer Hierarchy\Anni_Assignment_Cube\Gem\Gem_Player\Gem_Drop\Gem_Drop_Head\Gem_Drop_02		35072
+	601954961	Gem_Drop_Tail_02	F:\Coding\Github\Repos\Johan George\TheCUBEProject\TheCubeProject\.cache\9C\{9CF502F5-6CAF-E36E-2AFE-4B4492413B23}.wem		\Actor-Mixer Hierarchy\Anni_Assignment_Cube\Gem\Gem_Player\Gem_Drop\Gem_Drop_Tail\Gem_Drop_Tail_02		92272
+	614772182	Gem_Recharge_Woosh_02	F:\Coding\Github\Repos\Johan George\TheCUBEProject\TheCubeProject\.cache\2C\{2CB27C38-093B-AFFE-2A56-16F5AB83D4D0}.wem		\Actor-Mixer Hierarchy\Anni_Assignment_Cube\Gem\Gem_Player\Gem_Recharge_Woosh\Gem_Recharge_Woosh_02		94228
+	738223577	Poison Hit_02	F:\Coding\Github\Repos\Johan George\TheCUBEProject\TheCubeProject\.cache\B6\{B6746AC9-6E18-D91D-D03F-FDD4D9B5A752}.wem		\Actor-Mixer Hierarchy\Anni_Assignment_Cube\Magic\PoisonGem Magic\Poison Hit\Poison Hit_02		7812
+	789251373	FireGem_Blast_02	F:\Coding\Github\Repos\Johan George\TheCUBEProject\TheCubeProject\.cache\D6\{D62FF5B0-1ADF-FDD1-A46F-3DFC599D5FA0}.wem		\Actor-Mixer Hierarchy\Anni_Assignment_Cube\Magic\FireGem Magic\FireGem_Blast\FireGem_Blast_02		69696
+	812515774	Poison Tail_02	F:\Coding\Github\Repos\Johan George\TheCUBEProject\TheCubeProject\.cache\14\{1487479E-D0AF-0D86-E776-6685D0B06049}.wem		\Actor-Mixer Hierarchy\Anni_Assignment_Cube\Magic\PoisonGem Magic\Poison Tail\Poison Tail_02		61552
+	816135148	LightnigGem_Fire_02	F:\Coding\Github\Repos\Johan George\TheCUBEProject\TheCubeProject\.cache\BD\{BD72510E-FCC6-8B5C-F821-E08ED05D2FC5}.wem		\Actor-Mixer Hierarchy\Anni_Assignment_Cube\Magic\LightnigGem_Fire\LightnigGem_Fire\LightnigGem_Fire_02		139902
+	833672011	Gem_Drop_Tail_03	F:\Coding\Github\Repos\Johan George\TheCUBEProject\TheCubeProject\.cache\6A\{6A4D1308-0A61-90E3-B0A6-25B7F30BDFA7}.wem		\Actor-Mixer Hierarchy\Anni_Assignment_Cube\Gem\Gem_Player\Gem_Drop\Gem_Drop_Tail\Gem_Drop_Tail_03		92272
+	862114117	Gem_Recharge_02	F:\Coding\Github\Repos\Johan George\TheCUBEProject\TheCubeProject\.cache\A1\{A199A707-B502-99B4-562F-2380B00B271C}.wem		\Actor-Mixer Hierarchy\Anni_Assignment_Cube\Gem\Gem_Player\Gem_Recharge\Gem_Recharge_02		115312
+	1028486611	Gem_Recharge_01	F:\Coding\Github\Repos\Johan George\TheCUBEProject\TheCubeProject\.cache\2A\{2AFE293C-5AB3-6A3A-2724-43015CD07502}.wem		\Actor-Mixer Hierarchy\Anni_Assignment_Cube\Gem\Gem_Player\Gem_Recharge\Gem_Recharge_01		115312
+
